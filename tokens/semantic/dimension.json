@@ -1,0 +1,37 @@
+{
+    "dimension": {
+        "action": {
+            "height": {
+                "small":{
+                    "value": "{dimension.core.400}"
+                },
+                "medium":{
+                    "value": "{dimension.core.500}"
+                },
+                "large":{
+                    "value": "{dimension.core.600}"
+                }
+        }
+    },
+        "tapTargetMinimum": {
+        "value": "{dimension.core.600}"
+    },
+        "icon": {
+            "extraSmall":{
+                "value": "{dimension.core.150}"
+            },
+            "small":{
+                "value": "{dimension.core.200}"
+            },
+            "medium":{
+                "value": "{dimension.core.300}"
+            },
+            "large":{
+                "value": "{dimension.core.400}"
+            },
+            "extraLarge":{
+                "value": "{dimension.core.800}"
+            }
+    }
+}
+}

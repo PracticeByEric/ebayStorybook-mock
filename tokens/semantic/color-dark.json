@@ -1,0 +1,151 @@
+{
+    "color-dark":{
+        "background":{
+            "primary":{
+                "value": "{color.core.neutral.900}"
+            },
+            "secondary":{
+                "value": "{color.core.neutral.800}"
+            },
+            "tertiary":{
+                "value": "{color.core.neutral.700}"
+            },
+            "accent":{
+                "value": "{color.core.blue.400}"
+            },
+            "attention":{
+                "value": "{color.core.red.400}"
+            },
+            "success":{
+                "value": "{color.core.kiwi.500}"
+            },
+            "disabled":{
+                "value": "{color.core.neutral.600}"
+            },
+            "elevated":{
+                "value": "{color.core.neutral.800}"
+            },
+            "secondaryOnElevated":{
+                "value": "{color.core.neutral.900}"
+            },
+            "onSecondary":{
+                "value": "{color.core.neutral.900}"
+            },
+            "inverse":{
+                "value": "{color.core.neutral.300}"
+            },
+            "strong":{
+                "value": "{color.core.neutral.100}"
+            },
+            "education":{
+                "value": "{color.core.blue.800}"
+            }
+        },
+        "foreground":{
+            "primary":{
+                "value": "{color.core.neutral.200}"
+            },
+            "secondary":{
+                "value": "{color.core.neutral.500}"
+            },
+            "tertiary":{
+                "value": "{color.core.neutral.600}"
+            },
+            "accent":{
+                "value": "{color.core.blue.400}"
+            },
+            "attention":{
+                "value": "{color.core.red.400}"
+            },
+            "success":{
+                "value": "{color.core.kiwi.400}"
+            },
+            "onAccent":{
+                "value": "{color.core.neutral.800}"
+            },
+            "onAttention":{
+                "value": "{color.core.neutral.800}"
+            },
+            "onSuccess":{
+                "value": "{color.core.neutral.800}"
+            },
+            "onInverse":{
+                "value": "{color.core.neutral.800}"
+            },
+            "onStrong":{
+                "value": "{color.core.neutral.800}"
+            },
+            "onDisabled":{
+                "value": "{color.core.neutral.800}"
+            },
+            "link-visited":{
+                "value": "{color.core.pink.400}"
+            },
+            "link-legal":{
+                "value": "{color.core.blue.400}"
+            }
+        },
+        "border":{
+            "strong":{
+                "value": "{color.core.neutral.100}"
+            },
+            "medium":{
+                "value": "{color.core.neutral.600}"
+            },
+            "subtle":{
+                "value": "{color.core.neutral.700}"
+            },
+            "accent":{
+                "value": "{color.core.blue.400}"
+            },
+            "attention":{
+                "value": "{color.core.red.400}"
+            },
+            "success":{
+                "value": "{color.core.kiwi.500}"
+            },
+            "onAccent":{
+                "value": "{color.core.neutral.800}"
+            },
+            "onSuccess":{
+                "value": "{color.core.neutral.800}"
+            },
+            "onInverse":{
+                "value": "{color.core.neutral.800}"
+            },
+            "onDisabled":{
+                "value": "{color.core.neutral.800}"
+            },
+            "disabled":{
+                "value": "{color.core.neutral.700}"
+            }
+        },
+        "stateLayer":{
+            "hover":{
+                "value": "rgba({color.core.neutral.100}, 0.08)"
+            },
+            "pressed":{
+                "value": "rgba({color.core.neutral.100}, 0.08)"
+            },
+            "selected":{
+                "value": "rgba({color.core.neutral.100}, 0.08)"
+            },
+            "focus":{
+                "value": "rgba({color.core.neutral.100}, 0.04)"
+            }
+        },
+        "scrim":{
+            "background":{
+                "value": "rgba({color.core.neutral.900}, 0.64)"
+            }
+        },
+        "loading":{
+            "fill":{
+                "value": "#2d2d2d"
+            },
+            "fillOnSecondary":{
+                "value": "#353535"
+            }
+        }
+    }
+}

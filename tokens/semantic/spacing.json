@@ -1,0 +1,14 @@
+{
+    "spacing":{
+        "page":{
+            "grid":{
+                "margin":{
+                    "value": "{spacing.core.200}"
+                },
+                "gutter":{
+                    "value": "{spacing.core.100}"
+                }
+            }
+        }
+    }
+}

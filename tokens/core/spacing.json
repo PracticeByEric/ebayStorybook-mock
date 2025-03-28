@@ -1,0 +1,42 @@
+{
+    "spacing":{
+        "core":{
+            "0":{
+                "value": "{dimension.core.0}"
+            },
+            "25":{
+                "value": "{dimension.core.25}"
+            },
+            "50":{
+                "value": "{dimension.core.50}"
+            },
+            "75":{
+                "value": "{dimension.core.75}"
+            },
+            "100":{
+                "value": "{dimension.core.100}"
+            },
+            "150":{
+                "value": "{dimension.core.150}"
+            },
+            "200":{
+                "value": "{dimension.core.200}"
+            },
+            "250":{
+                "value": "{dimension.core.250}"
+            },
+            "300":{
+                "value": "{dimension.core.300}"
+            },
+            "400":{
+                "value": "{dimension.core.400}"
+            },
+            "500":{
+                "value": "{dimension.core.500}"
+            },
+            "600":{
+                "value": "{dimension.core.600}"
+            }
+        }
+    }
+}

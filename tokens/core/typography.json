@@ -1,0 +1,114 @@
+{
+    "font":{
+        "family":{
+                "value": "market sans"
+            },
+        "letterSpacing":{
+                "display1": {
+                    "value": "-0.0575rem"
+                },
+                "display2": {
+                    "value": "-0.045rem"
+                },
+                "display3": {
+                    "value": "-0.0375rem"
+                },
+                "none": {
+                    "value": "0rem"
+                },
+                "signal1": {
+                    "value": "0.04375rem"
+                },
+                "signal2": {
+                    "value": "0.03125rem"
+                }
+            },
+        "lineHeight":{
+                "150": {
+                    "value": "0.75rem"
+                },
+                "200": {
+                    "value": "1rem"
+                },
+                "250": {
+                    "value": "1.25rem"
+                },
+                "300": {
+                    "value": "1.5rem"
+                },
+                "350": {
+                    "value": "1.75rem"
+                },
+                "400": {
+                    "value": "2rem"
+                },
+                "500": {
+                    "value": "2.5rem"
+                },
+                "575": {
+                    "value": "2.875rem"
+                },
+                "600": {
+                    "value": "3.5rem"
+                }
+            },
+         "paragraphSpacing":{
+                "none": {
+                    "value": "0rem"
+                }
+            },
+        "size":{
+                "body": {
+                    "value": "0rem"
+                },
+                "giant1": {
+                    "value": "0rem"
+                },
+                "giant2": {
+                    "value": "0rem"
+                },
+                "giant3": {
+                    "value": "0rem"
+                },
+                "large1": {
+                    "value": "0rem"
+                },
+                "large2": {
+                    "value": "0rem"
+                },
+                "medium": {
+                    "value": "0rem"
+                },
+                "small": {
+                    "value": "0rem"
+                },
+                "smallest": {
+                    "value": "0rem"
+                }
+            },
+        "textCase":{
+                "none": {
+                    "value": "0rem"
+                },
+                "uppercase": {
+                    "value": "uppercase"
+                }
+            },
+         "textDecoration":{
+                "none": {
+                    "value": "none"
+                },
+                "underline": {
+                    "value": "underline"
+                }
+            },
+         "weight":{
+                "400": {
+                    "value": "regular"
+                },
+                "600": {
+                    "value": "bold"
+                }
+            }
+        }
+}

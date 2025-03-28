@@ -1,0 +1,31 @@
+{
+    "radius":{
+        "none":{
+            "value": "{dimension.core.0}"
+        },
+        "small":{
+            "value": "{dimension.core.50}"
+        },
+        "medium":{
+            "value": "{dimension.core.100}"
+        },
+        "large":{
+            "value": "{dimension.core.200}"
+        },
+        "extraLarge":{
+            "value": "{dimension.core.300}"
+        },
+        "photoSmall":{
+            "value": "{dimension.core.100}"
+        },
+        "photoLarge":{
+            "value": "{dimension.core.200}"
+        },
+        "formInput":{
+            "value": "{dimension.core.100}"
+        },
+        "popoverContainer":{
+            "value": "{dimension.core.200}"
+        }
+    }
+}

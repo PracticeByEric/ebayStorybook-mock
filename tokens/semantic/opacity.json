@@ -1,0 +1,18 @@
+{
+    "opacity":{
+        "state":{
+            "hover":{
+                "value": "4%"
+            },
+            "focus":{
+                "value": "4%"
+            },
+            "press":{
+                "value": "8%"
+            },
+            "active":{
+                "value": "12%"
+            }
+        }
+    }
+}

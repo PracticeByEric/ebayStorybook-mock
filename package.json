@@ -13,5 +13,6 @@
   },
   "devDependencies": {
     "style-dictionary": "^4.3.3"
-  }
+  },
+  "type": "module"
 }

@@ -1,0 +1,46 @@
+{
+    "shadow":{
+        "subtle":{
+            "x":{
+                "value": "0px"
+            },
+            "y":{
+                "value": "4px"
+            },
+            "blur":{
+                "value": "12px"
+            },
+            "spread":{
+                "value": "0px"
+            },
+            "color":{
+                "value": "rgba({color.core.neutral.900},0.07)"
+            },
+            "type":{
+                "value": "dropShadow"
+            }
+        },
+        "strong":{
+            "value":[
+                {
+                    "x": "0px",
+                    "y": "5px",
+                    "blur": "17px",
+                    "spread": "0px",
+                    "color": "{color.core.neutral.900}",
+                    "alpha": 0.2,
+                    "type": "dropShadow"
+                  },
+                  {
+                    "x": "0px",
+                    "y": "2px",
+                    "blur": "7px",
+                    "spread": "0px",
+                    "color": "{color.core.neutral.900}",
+                    "alpha": 0.15,
+                    "type": "dropShadow"
+                  }
+            ]
+        }
+    }
+}
