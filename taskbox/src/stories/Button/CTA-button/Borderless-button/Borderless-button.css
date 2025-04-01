@@ -84,6 +84,6 @@
   }
 
   
-.borderlessButton:disabled .icon path{
+.borderlessButton:disabled .borderlessIcon path{
     fill: var(--playbook-semantic-color-foreground-disabled);
   }
