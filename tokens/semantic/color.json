@@ -1,0 +1,561 @@
+{
+    "color": {
+      "light": {
+        "background": {
+          "primary": {
+            "value": "{color.core.neutral.100}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "secondary": {
+            "value": "{color.core.neutral.200}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "tertiary": {
+            "value": "{color.core.neutral.300}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "accent": {
+            "value": "{color.core.blue.500}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "attention": {
+            "value": "{color.core.red.600}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "success": {
+            "value": "{color.core.kiwi.600}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "disabled": {
+            "value": "{color.core.neutral.400}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "elevated": {
+            "value": "{color.core.neutral.100}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "secondaryOnElevated": {
+            "value": "{color.core.neutral.200}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "onSecondary": {
+            "value": "{color.core.neutral.100}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "inverse": {
+            "value": "{color.core.neutral.700}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "strong": {
+            "value": "{color.core.neutral.800}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "education": {
+            "value": "{color.core.blue.100}",
+            "attributes": {
+              "theme": "light"
+            }
+          }
+        },
+        "foreground": {
+          "primary": {
+            "value": "{color.core.neutral.800}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "secondary": {
+            "value": "{color.core.neutral.600}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "disabled": {
+            "value": "{color.core.neutral.400}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "accent": {
+            "value": "{color.core.blue.500}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "attention": {
+            "value": "{color.core.red.600}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "success": {
+            "value": "{color.core.kiwi.600}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "onAccent": {
+            "value": "{color.core.neutral.100}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "onAttention": {
+            "value": "{color.core.neutral.100}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "onSuccess": {
+            "value": "{color.core.neutral.100}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "onInverse": {
+            "value": "{color.core.neutral.100}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "onStrong": {
+            "value": "{color.core.neutral.100}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "onDisabled": {
+            "value": "{color.core.neutral.100}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "link-visited": {
+            "value": "{color.core.pink.600}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "link-legal": {
+            "value": "{color.core.blue.650}",
+            "attributes": {
+              "theme": "light"
+            }
+          }
+        },
+        "border": {
+          "strong": {
+            "value": "{color.core.neutral.700}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "medium": {
+            "value": "{color.core.neutral.500}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "subtle": {
+            "value": "{color.core.neutral.300}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "accent": {
+            "value": "{color.core.blue.500}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "attention": {
+            "value": "{color.core.red.600}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "success": {
+            "value": "{color.core.kiwi.600}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "onAccent": {
+            "value": "{color.core.neutral.100}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "onSuccess": {
+            "value": "{color.core.neutral.100}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "onInverse": {
+            "value": "{color.core.neutral.100}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "onDisabled": {
+            "value": "{color.core.neutral.100}",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "disabled": {
+            "value": "{color.core.neutral.400}",
+            "attributes": {
+              "theme": "light"
+            }
+          }
+        },
+        "stateLayer": {
+          "hover": {
+            "value": "rgba(0, 0, 0, 0.08)",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "pressed": {
+            "value": "rgba(0, 0, 0, 0.08)",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "selected": {
+            "value": "rgba(0, 0, 0, 0.08)",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "focus": {
+            "value": "rgba(0, 0, 0, 0.04)",
+            "attributes": {
+              "theme": "light"
+            }
+          }
+        },
+        "scrim": {
+          "background": {
+            "value": "rgba(0, 0, 0, 0.3)",
+            "attributes": {
+              "theme": "light"
+            }
+          }
+        },
+        "loading": {
+          "fill": {
+            "value": "#ededed",
+            "attributes": {
+              "theme": "light"
+            }
+          },
+          "fillOnSecondary": {
+            "value": "#e4e4e4",
+            "attributes": {
+              "theme": "light"
+            }
+          }
+        }
+      },
+      "dark": {
+        "background": {
+          "primary": {
+            "value": "{color.core.neutral.900}",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "secondary": {
+            "value": "{color.core.neutral.800}",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "disabled": {
+            "value": "{color.core.neutral.700}",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "accent": {
+            "value": "{color.core.blue.400}",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "attention": {
+            "value": "{color.core.red.400}",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "success": {
+            "value": "{color.core.kiwi.500}",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "elevated": {
+            "value": "{color.core.neutral.800}",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "secondaryOnElevated": {
+            "value": "{color.core.neutral.900}",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "onSecondary": {
+            "value": "{color.core.neutral.900}",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "inverse": {
+            "value": "{color.core.neutral.300}",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "strong": {
+            "value": "{color.core.neutral.100}",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "education": {
+            "value": "{color.core.blue.800}",
+            "attributes": {
+              "theme": "dark"
+            }
+          }
+        },
+        "foreground": {
+          "primary": {
+            "value": "{color.core.neutral.200}",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "secondary": {
+            "value": "{color.core.neutral.500}",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "tertiary": {
+            "value": "{color.core.neutral.600}",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "accent": {
+            "value": "{color.core.blue.400}",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "attention": {
+            "value": "{color.core.red.400}",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "success": {
+            "value": "{color.core.kiwi.400}",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "onAccent": {
+            "value": "{color.core.neutral.800}",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "onAttention": {
+            "value": "{color.core.neutral.800}",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "onSuccess": {
+            "value": "{color.core.neutral.800}",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "onInverse": {
+            "value": "{color.core.neutral.800}",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "onStrong": {
+            "value": "{color.core.neutral.800}",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "onDisabled": {
+            "value": "{color.core.neutral.800}",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "link-visited": {
+            "value": "{color.core.pink.400}",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "link-legal": {
+            "value": "{color.core.blue.400}",
+            "attributes": {
+              "theme": "dark"
+            }
+          }
+        },
+        "border": {
+          "strong": {
+            "value": "{color.core.neutral.100}",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "medium": {
+            "value": "{color.core.neutral.600}",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "subtle": {
+            "value": "{color.core.neutral.700}",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "accent": {
+            "value": "{color.core.blue.400}",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "attention": {
+            "value": "{color.core.red.400}",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "success": {
+            "value": "{color.core.kiwi.500}",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "onAccent": {
+            "value": "{color.core.neutral.800}",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "onSuccess": {
+            "value": "{color.core.neutral.800}",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "onInverse": {
+            "value": "{color.core.neutral.800}",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "onDisabled": {
+            "value": "{color.core.neutral.800}",
+            "attributes": {
+              "theme": "dark"
+            }
+          }
+        },
+        "stateLayer": {
+          "hover": {
+            "value": "rgba(255, 255, 255, 0.08)",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "pressed": {
+            "value": "rgba(255, 255, 255, 0.08)",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "selected": {
+            "value": "rgba({color.core.neutral.100}, 0.08)",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "focus": {
+            "value": "rgba(255, 255, 255, 0.04)",
+            "attributes": {
+              "theme": "dark"
+            }
+          }
+        },
+        "scrim": {
+          "background": {
+            "value": "rgba(255, 255, 255, 0.64)",
+            "attributes": {
+              "theme": "dark"
+            }
+          }
+        },
+        "loading": {
+          "fill": {
+            "value": "#2d2d2d",
+            "attributes": {
+              "theme": "dark"
+            }
+          },
+          "fillOnSecondary": {
+            "value": "#353535",
+            "attributes": {
+              "theme": "dark"
+            }
+          }
+        }
+      }
+    }
+  }
+  

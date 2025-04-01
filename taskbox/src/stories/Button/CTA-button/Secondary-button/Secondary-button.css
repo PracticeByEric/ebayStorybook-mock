@@ -1,0 +1,91 @@
+.secondaryButton {
+    /* Base styles */
+    background-color: #0000;
+      /*text color*/
+      color: var(--playbook-semantic-color-foreground-accent);
+      border: var(--playbook-semantic-border-medium) solid var(--playbook-semantic-color-border-accent);
+      border-radius: var(--playbook-semantic-radius-extra-large);
+      height: var(--playbook-dimension-core-600);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+  
+      /* Typography */
+      font-family: var(--playbook-font-family);
+      font-weight: var(--playbook-font-weight-400);
+      font-size: var(--playbook-font-size-body);
+      line-height: var(--playbook-semantic-typography-body-line-height);
+  
+      /* Transition */
+      transition: background-color 0.3s ease;
+    }
+
+
+.secondaryIcon{
+    width:16px;
+    height:16px;
+    color: var(--playbook-semantic-color-foreground-accent);
+    fill: var(--playbook-semantic-color-foreground-accent);
+}
+
+.secondaryIcon path{
+  fill: var(--playbook-semantic-color-foreground-accent);
+}
+
+.secondaryButton--large{
+    height:var(--playbook-dimension-core-600);
+    padding: 0 var(--playbook-spacing-core-250);
+    min-width: 96px;
+    max-width: 480px;
+    gap: var(--playbook-spacing-core-100);
+}
+
+.secondaryButton--medium{
+    height: var(--playbook-dimension-core-500);
+    padding: 0 1.25rem;
+    min-width: 80px;
+    max-width: 400px;
+    gap: var(--playbook-spacing-core-75);
+}
+
+.secondaryButton--small{
+    height: var(--playbook-dimension-core-400);
+    padding: 0 1.25rem;
+    min-width: 64px;
+    max-width: 320px;
+    gap: var(--playbook-spacing-core-75);
+}
+  
+    /* States */
+  .secondaryButton:hover {
+    background: 
+    /* Overlay layer */
+    linear-gradient(var(--playbook-semantic-color-state-layer-hover), var(--playbook-semantic-color-state-layer-hover)),
+    /* Base layer */
+    #0000
+  }
+  
+  .secondaryButton:active {
+    background: 
+    /* Overlay layer */
+    linear-gradient(var(--playbook-semantic-color-state-layer-pressed), var(--playbook-semantic-color-state-layer-pressed)),
+    /* Base layer */
+    #0000
+  }
+  
+  .secondaryButton:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px white, 0 0 0 4px var(--playbook-semantic-color-border-accent);
+  }
+  
+  .secondaryButton:disabled {
+    color: var(--playbook-semantic-color-foreground-disabled);
+    cursor: not-allowed;
+    border: var(--playbook-semantic-border-medium) solid var(--playbook-semantic-color-border-disabled);
+  }
+
+  
+.secondaryButton:disabled .secondaryIcon path{
+    fill: var(--playbook-semantic-color-foreground-disabled);
+  }

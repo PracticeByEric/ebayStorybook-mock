@@ -1,7 +1,7 @@
 {
     "font":{
         "family":{
-                "value": "market sans"
+                "value": "sans-serif"
             },
         "letterSpacing":{
                 "display1": {
@@ -59,7 +59,7 @@
             },
         "size":{
                 "body": {
-                    "value": "0rem"
+                    "value": "0.875rem"
                 },
                 "giant1": {
                     "value": "0rem"

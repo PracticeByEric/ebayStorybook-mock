@@ -1,0 +1,88 @@
+.tertiaryDestructive {
+    /* Base styles */
+      background-color: #0000;
+      /*text color*/
+      color: var(--playbook-semantic-color-foreground-primary);
+      border: var(--playbook-semantic-border-medium) solid var(--playbook-semantic-color-border-subtle);
+      border-radius: var(--playbook-semantic-radius-extra-large);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+  
+      /* Typography */
+      font-family: var(--playbook-font-family);
+      font-weight: var(--playbook-font-weight-400);
+      font-size: var(--playbook-font-size-body);
+      line-height: var(--playbook-semantic-typography-body-line-height);
+  
+      /* Transition */
+      transition: background-color 0.3s ease;
+    }
+
+
+.tertiaryDestructiveIcon{
+    width:16px;
+    height:16px;
+    color: var(--playbook-semantic-color-foreground-primary);
+    fill: var(--playbook-semantic-color-foreground-primary);
+}
+
+.tertiaryDestructiveIcon path{
+  fill: var(--playbook-semantic-color-foreground-primary);
+}
+
+.tertiaryDestructive--large{
+    height: var(--playbook-dimension-core-600);
+    padding: 0 var(--playbook-spacing-core-250);
+    min-width: 96px;
+    max-width: 480px;
+    gap: var(--playbook-spacing-core-100);
+}
+
+.tertiaryDestructive--medium{
+    height: var(--playbook-dimension-core-500);
+    min-width: 80px;
+    max-width: 400px;
+    gap:6px;
+}
+
+.tertiaryDestructive--small{
+    height: var(--playbook-dimension-core-400);
+    min-width: 64px;
+    max-width: 320px;
+    gap: var(--playbook-spacing-core-75);
+}
+  
+    /* States */
+  .tertiaryDestructive:hover {
+    background: 
+    /* Overlay layer */
+    linear-gradient(var(--playbook-semantic-color-state-layer-hover), var(--playbook-semantic-color-state-layer-hover)),
+    /* Base layer */
+    #0000;
+  }
+  
+  .tertiaryDestructive:active {
+    background: 
+    /* Overlay layer */
+    linear-gradient(var(--playbook-semantic-color-state-layer-pressed), var(--playbook-semantic-color-state-layer-pressed)),
+    /* Base layer */
+    #0000;
+  }
+  
+  .tertiaryDestructive:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px white, 0 0 0 4px var(--playbook-semantic-color-border-accent);
+  }
+  
+  .tertiaryDestructive:disabled {
+    background: #0000;
+    cursor: not-allowed;
+    color: var(--playbook-semantic-color-foreground-disabled);
+    border: var(--playbook-semantic-border-medium) solid var(--playbook-semantic-color-border-disabled);
+  }
+
+  .tertiaryDestructive:disabled .tertiaryDestructiveIcon path{
+    fill: var(--playbook-semantic-color-foreground-disabled);
+  }

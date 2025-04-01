@@ -1,0 +1,85 @@
+.primaryButton {
+    /* Base styles */
+      background-color: var(--playbook-semantic-color-background-accent);
+      /*text color*/
+      color: var(--playbook-semantic-color-foreground-on-accent);
+      border: var(--playbook-semantic-border-medium) solid var(--playbook-semantic-color-border-accent);
+      border-radius: var(--playbook-semantic-radius-extra-large);
+      padding: 0 1.25rem;
+      height: var(--playbook-dimension-core-600);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+  
+      /* Typography */
+      font-family: var(--playbook-font-family);
+      font-weight: var(--playbook-font-weight-600);
+      font-size: var(--playbook-font-size-body);
+      line-height: var(--playbook-semantic-typography-body-line-height);
+  
+      /* Transition */
+      transition: background-color 0.3s ease;
+    }
+
+
+.primaryIcon{
+    width:16px;
+    height:16px;
+    color: var(--playbook-semantic-color-foreground-on-accent);
+    fill: var(--playbook-semantic-color-foreground-on-accent);
+}
+
+.primaryIcon path{
+  fill: var(--playbook-semantic-color-foreground-on-accent);
+}
+
+.primaryButton--large{
+    height:48px;
+    min-width: 96px;
+    max-width: 480px;
+    gap:8px;
+}
+
+.primaryButton--medium{
+    height:40px;
+    min-width: 80px;
+    max-width: 400px;
+    gap:6px;
+}
+
+.primaryButton--small{
+    height:32px;
+    min-width: 64px;
+    max-width: 320px;
+    gap:6px;
+}
+  
+    /* States */
+  .primaryButton:hover {
+    background: 
+    /* Overlay layer */
+    linear-gradient(var(--playbook-semantic-color-state-layer-hover), var(--playbook-semantic-color-state-layer-hover)),
+    /* Base layer */
+    var(--playbook-semantic-color-background-accent);
+  }
+  
+  .primaryButton:active {
+    background: 
+    /* Overlay layer */
+    linear-gradient(var(--playbook-semantic-color-state-layer-pressed), var(--playbook-semantic-color-state-layer-pressed)),
+    /* Base layer */
+    var(--playbook-semantic-color-background-accent);
+  }
+  
+  .primaryButton:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px white, 0 0 0 4px var(--playbook-semantic-color-border-accent);
+  }
+  
+  .primaryButton:disabled {
+    background: var(--playbook-semantic-color-background-disabled);
+    cursor: not-allowed;
+    border: var(--playbook-semantic-border-medium) solid var(--playbook-semantic-color-border-disabled);
+  }

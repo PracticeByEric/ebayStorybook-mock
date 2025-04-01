@@ -1,0 +1,68 @@
+.brandedButton {
+  /* Base styles */
+    background-color: var(--playbook-semantic-color-background-accent);
+    color: var(--playbook-semantic-color-foreground-on-accent);
+    border: var(--playbook-semantic-color-border-accent);
+    border-radius: var(--playbook-semantic-radius-extra-large);
+    padding: 0 1.25rem;
+    height: var(--playbook-dimension-core-500);
+    min-width: 80px;
+    max-width: 400px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    /* Typography */
+    font-family: var(--playbook-font-family);
+    font-weight: var(--playbook-font-weight-600);
+    font-size: var(--playbook-font-size-body);
+    line-height: var(--playbook-semantic-typography-body-line-height);
+
+    /* Transition */
+    transition: background-color 0.3s ease;
+  }
+
+  .branded-button_icon {
+    display: flex;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    color: var(--playbook-semantic-color-foreground-on-accent);
+  }
+
+  /* States */
+.brandedButton:hover {
+  background: 
+  /* Overlay layer */
+  linear-gradient(var(--playbook-semantic-color-state-layer-hover), var(--playbook-semantic-color-state-layer-hover)),
+  /* Base layer */
+  var(--playbook-semantic-color-background-accent);
+}
+
+.brandedButton:active {
+  background: 
+  /* Overlay layer */
+  linear-gradient(var(--playbook-semantic-color-state-layer-pressed), var(--playbook-semantic-color-state-layer-pressed)),
+  /* Base layer */
+  var(--playbook-semantic-color-background-accent);
+}
+
+.brandedButton:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px white, 0 0 0 4px var(--playbook-semantic-color-border-accent);
+}
+
+.brandedButton:disabled {
+  background: var(--playbook-semantic-color-background-disabled);
+  cursor: not-allowed;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+}

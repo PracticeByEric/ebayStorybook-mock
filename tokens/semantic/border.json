@@ -1,0 +1,13 @@
+{
+    "border":{
+        "thin": {
+            "value": "0.5px"
+        },
+        "medium": {
+            "value": "1px"
+        },
+        "thick": {
+            "value": "2px"
+        }
+    }
+}
